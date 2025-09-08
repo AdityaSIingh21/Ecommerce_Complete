@@ -19,42 +19,36 @@ This project includes user authentication, product management, cart, wishlist, a
 ## 🚀 Setup Instructions
 
 1. **Clone the Repository**
-   ```bash
+
    git clone <your-repo-link>
    cd Ecommerce
 Create Virtual Environment
 
-bash
-Copy code
+
 python -m venv venv
 venv\Scripts\activate   # On Windows
 Install Requirements
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Apply Migrations
 
-bash
-Copy code
+
+
 python manage.py migrate
 Create Superuser
 
-bash
-Copy code
+
 python manage.py createsuperuser
 Run Development Server
 
-bash
-Copy code
+
 python manage.py runserver
 Open Website
 
-cpp
-Copy code
+
 http://127.0.0.1:8000/
-📸 Screenshots
-👉 Add your own screenshots inside a screenshots/ folder in the repo and reference them here:
+
 
 🏠 Home Page
 
