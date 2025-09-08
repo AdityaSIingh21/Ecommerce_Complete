@@ -13,6 +13,17 @@ This project includes user authentication, product management, cart, wishlist, a
 - 💳 Checkout (demo order placement)
 - 👤 User Profile page
 - 📷 Product Images
+- ## 📸 Screenshots
+
+### 🏠 Home Page
+![Home](Screenshot1.png)
+
+### 🛒 Cart Page
+![Cart](Screenshot3.png)
+
+### ✅ Checkout Page
+![Search](Screenshot2.png)
+
 
 ---
 
