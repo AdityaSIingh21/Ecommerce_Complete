@@ -21,7 +21,7 @@ This project includes user authentication, product management, cart, wishlist, a
 ### 🛒 Cart Page
 ![Cart](Screenshot3.png)
 
-### ✅ Checkout Page
+### ✅ Search Page
 ![Search](Screenshot2.png)
 
 
