@@ -1,1 +1,18 @@
-{% extends 'shop/base.html' %}{% block title %}Profile{% endblock %}{% block content %}<h3>Hello, {{ request.user.username }}!</h3><p>Email: {{ request.user.email }}</p><p>Date joined: {{ request.user.date_joined }}</p>{% endblock %}
+{% extends 'shop/base.html' %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<div class="card shadow p-4">
+  <h3 class="mb-3">Hello, {{ request.user.username }}!</h3>
+  
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+      <strong>Email:</strong> {{ request.user.email }}
+    </li>
+    <li class="list-group-item">
+      <strong>Date joined:</strong> {{ request.user.date_joined }}
+    </li>
+  </ul>
+</div>
+{% endblock %}
